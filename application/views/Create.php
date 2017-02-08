@@ -11,10 +11,11 @@
         <link href="<?= base_url() ?>Assets/css/twentytwenty.css" rel="stylesheet" type="text/css" />
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-        <link rel="stylesheet" type="text/css" href="<?= base_url() ?>Assets/css/Aspecto2.css">
+        <link rel="stylesheet" type="text/css" href="<?= base_url() ?>Assets/css/Aspecto.css">
     </head>
     <body>
         <br>
+<div class="container-fluid">
         <div class="row">
             <div class="col-lg-12"> 
                 <center>
@@ -29,12 +30,13 @@
         </div>    
         <br><!-- formulario d entrada y login -->
         <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <video autoplay="" loop="" width="350px" height="100%" muted="muted">
-                    <source src="http://www.qooqee.com/templates/sublime/sublime2.webm"></source>	                
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <video autoplay="" loop="" width="1200" height="100%" muted="muted">
+                    <source media="min-width: 1200px"src="http://www.qooqee.com/templates/sublime/sublime2.webm"></source>	                
                 </video>
             </div>
         </div>    
+        <br>
         <div class="row">
             <div class="col-lg-12">
                 <center>
@@ -63,7 +65,7 @@
         </div> <br>
         <div class="row">
             <div class="col-lg-12"> 
-                <img src="<?= base_url() ?>Assets/sonri.jpg" alt="" class="img-responsive" class="img-thumbnail"><br>
+                <img src="<?= base_url() ?>Assets/sonri.jpg"  alt="" class="img-responsive" class="img-thumbnail"><br>
             </div>
         </div>   
        <div class="row">
@@ -96,7 +98,7 @@
                 <img src="<?= base_url() ?>Assets/planes.png" alt="" class="img-responsive" class="img-thumbnail"><br>
             </div>
         </div>  
-
+</div>
         <script src="<?= base_url() ?>Assets/js/jquery2.min.js"></script>
         <!-- jquery para twnty-->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
@@ -108,21 +110,6 @@
                 $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical'});
             });
         </script>
-        <script type="text/javascript">
-
-            $(function () {
-
-                $("#bot").mouseenter(function ()
-                {
-                    $("#bot").css("background-color", "red");
-
-                });
-                $("#bot").mouseleave(function ()
-                {
-                    $("#bot").css("background-color", "#FF5E65");
-                });
-
-            });
-        </script>
+ 
     </body>
 </html>

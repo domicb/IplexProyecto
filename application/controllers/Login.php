@@ -47,7 +47,7 @@ class Login extends CI_Controller {
                 } 
                 else 
                     {
-                    redirect(base_url() . 'lol.php');
+                    $this->load->view('Account.php');
                 }
             } else {//si no tiene cuenta lo mandamos de nuevo al login              
                 redirect(base_url() . 'index.php/Login/');
